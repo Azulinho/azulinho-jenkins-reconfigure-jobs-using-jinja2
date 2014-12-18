@@ -6,7 +6,7 @@
     mode=0775
     owner=jenkins
     group=jenkins
-  with_dict: jobs
+  with_dict: azulinho_jenkins_reconfigure_jobs_using_jinja2['jobs']
   tags:
     - deploy_jenkins_xml
     - jenkins-reconfigure-jobs-using-jinja2
@@ -17,7 +17,7 @@
     mode=0775
     owner=jenkins
     group=jenkins
-  with_dict: jobs
+  with_dict: azulinho_jenkins_reconfigure_jobs_using_jinja2['jobs']
   tags:
     - deploy_jenkins_xml
     - jenkins-reconfigure-jobs-using-jinja2
